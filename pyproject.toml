@@ -1,0 +1,10 @@
+[project]
+name = "coding1-github-practice"
+version = "0.1.0"
+description = "Ungraded GitHub workflow practice for Coding 1"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.uv]
+package = false
