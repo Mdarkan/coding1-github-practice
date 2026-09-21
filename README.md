@@ -3,7 +3,7 @@
 This is an **ungraded** exercise to practise the workflow we use in class:
 fork → clone → edit → commit → push.
 
-Your task is small: make `assignment.py` print `hello world`, then publish your
+Your task is small: make `assignment.py` print `Hello, world!`, then publish your
 change to **your own fork** on GitHub.
 
 ## 1. Fork this repository
@@ -47,7 +47,7 @@ Open `assignment.py` in your code editor. It contains one line:
 print()
 ```
 
-Put the text `hello world` inside the parentheses, surrounded by quotation marks.
+Put the text `Hello, world!` inside the parentheses, surrounded by quotation marks.
 Save the file. Unlike the code-reading assignments, this exercise asks you to
 **change the code**, not just add comments.
 
@@ -60,7 +60,7 @@ uv run python assignment.py
 You should see:
 
 ```text
-hello world
+Hello, world!
 ```
 
 ## 4. Commit and push your change
@@ -70,7 +70,7 @@ Check what you changed, stage the file, and create a commit:
 ```bash
 git diff
 git add assignment.py
-git commit -m "add hello world"
+git commit -m 'add Hello, world!'
 ```
 
 A **commit** records the change locally. Now **push** it to your fork on GitHub:
@@ -84,9 +84,9 @@ Because you cloned your own fork, `origin` points to that fork.
 ## 5. Check your fork on GitHub
 
 Refresh your fork's GitHub page and open `assignment.py`. Make sure your saved
-change is visible there, along with the `add hello world` commit.
+change is visible there, along with the `add Hello, world!` commit.
 
-You are finished when the script prints `hello world` on your computer **and**
+You are finished when the script prints `Hello, world!` on your computer **and**
 your changed file is visible on your GitHub fork. No pull request is needed.
 
 ## Rules
